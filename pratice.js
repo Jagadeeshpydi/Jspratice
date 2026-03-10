@@ -1,8 +1,5 @@
+let a=10,b=30;
 
-const person={
-    name:"jagadeesh",
-    age:25
-};
-for(let key in person){
-    console.log(key,person)
-}
+[a,b]=[b,a]; //destructuring assignment
+console.log(a);
+console.log(b);
