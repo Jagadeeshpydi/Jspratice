@@ -1,4 +1,8 @@
-function add(a,b){
-    console.log(a+b);
-}
-add(13,5);
+
+const person={
+    name:"jagadeesh",
+    age:25
+};
+console.log(person);
+console.log(person.name);
+console.log(person.age);

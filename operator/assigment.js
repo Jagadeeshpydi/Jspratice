@@ -1,11 +1,15 @@
-let x = 100;
-let y = 20;
+x=100;
+y=20;
+console.log(x);
 
-console.log(x > y);
-console.log(x < y);
-console.log(x >= y);
-console.log(x <= y);
-console.log(x == y);
-console.log(x != y);
-console.log(x === y);
-console.log(x !== y);
+x+=y;
+console.log(x);
+x-=y;
+console.log(x);
+x*=y;
+console.log(x);
+x/=y;
+console.log(x);
+x%=y;
+
+console.log(x);
