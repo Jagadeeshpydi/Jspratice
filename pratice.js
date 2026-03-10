@@ -1,16 +1,12 @@
-const studentMarks=[70,80,90];
+//let i=5,j=0;
 
-
-function checkGrade(marks){
-    let sum=0;
-    for(let i=0;i<marks.length;i++){
-        sum+=marks[i];
+for(let i=0;i<=5;i++){
+    let isPrime=true;
+for(let j=0;j<i;j++){
+    if(i%j===0){
+        isPrime=false;
+        break;
     }
-    const grade=sum/marks.length;
-    if(grade>=90){
-        console.log("Grade A");
-    }else if(grade>=80){
-        console.log("Grade B");
-    }
+    console.log(i);
 }
-checkGrade(studentMarks);
+}
