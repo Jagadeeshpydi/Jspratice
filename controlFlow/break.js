@@ -1,8 +1,20 @@
 let i=0;
 
+while(i<=10){
+if(i==5) 
+break;
+console.log(i);
+i++;
+}
 
-while(i<5){
-    console.log(i);
-    i++;
-      break;
+
+let j=1;
+
+while(j<=10){
+    if(j%2!==0){
+        j++;
+        continue;
+    }
+    console.log(j);
+    j++;
 }
