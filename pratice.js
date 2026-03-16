@@ -1,15 +1,20 @@
+const circle={
+    radius:1,
+    draw(){
+        console.log("draw");
+    }
+};
 
-let i=1;
-
-while(i<=5){
-   
-if(i===3){
-
-    i++;
-    continue;
-     
-   
-  }
-   console.log(i)
-     i++;
+for(let key in circle){
+    console.log(key,circle[key]);
 }
+
+for(let key of Object.entries(circle))
+    console.log(key);
+
+function object(){
+
+}
+
+
+
